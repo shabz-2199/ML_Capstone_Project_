@@ -1,0 +1,33 @@
+,Feature,Dtype,Business Description
+0,Property_Name,object,Name of the Property
+1,Property_id,int64,Unique identification number for a property
+2,Property_type,object,Type of the property/plot
+3,Property_status,object,Construction Status/Ready to Move
+4,Price_per_unit_area,object,Price per unit area for that property
+5,Posted_On,object,Time of posting the details of the property
+6,Project_URL,object,Website address for more info
+7,builder_id,float64,Unique identification number for the builder
+8,Builder_name,object,Name of the Builder/Company
+9,Property_building_status,object,Verification Status about the property
+10,City_id,int64,A unique id number for each city
+11,City_name,object,Name of the city
+12,No_of_BHK,object,Number of Bedroom/Hall/Kitchen
+13,Locality_ID,int64,Unique identification number for a locality in a city
+14,Locality_Name,object,Name of the Area/Locality/region in that city
+15,Longitude,float64,East West Geographic Position of the property
+16,Latitude,float64,North South Geographic Position of the property
+17,Price,object,Price of the plot in INR
+18,Size,object,Area of the plot/property (in sq. feet)
+19,Sub_urban_ID,int64,Pincode of the suburb/area
+20,Sub_urban_name,object,Description about nearby landmarks in that area
+21,description,object,"Details about the property's features, its price and the direction"
+22,is_furnished,object,Furnishing Status(Completed/Not/Semi)
+23,listing_domain_score,float64,
+24,is_plot,bool,Whether the property is a plot or is a constructed one
+25,is_RERA_registered,bool,Whether property is registered by Real Estate Regulatory Authority
+26,is_Apartment,bool,Whether the property is an apartment or not
+27,is_ready_to_move,bool,Ready to move in or not
+28,is_commercial_Listing,bool,Whether the property is a commercial/investment property
+29,is_PentaHouse,bool,Whether the property is a penthouse or not
+30,is_studio,bool,Is the property a studio or not
+31,Listing_Category,object,Selling
